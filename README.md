@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 meu-portfolio
 
-## Getting Started
-
-First, run the development server:
+## ⚡ Como instalar
 
 ```bash
+# 1. Copie os arquivos da pasta src/ para DENTRO do seu src/ existente
+# 2. Configure o .env.local
+cp .env.local.example .env.local
+# Edite .env.local com suas chaves reais
+
+# 3. Rode
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📁 Estrutura — coloque dentro do seu /src/
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+src/
+├── app/
+│   ├── globals.css       ← substitui o existente
+│   ├── layout.tsx        ← substitui o existente
+│   ├── page.tsx          ← substitui o existente
+│   └── api/
+│       ├── github/route.ts
+│       └── contact/route.ts
+├── components/
+│   ├── sections/
+│   │   ├── Hero.tsx
+│   │   ├── About.tsx
+│   │   ├── Skills.tsx
+│   │   ├── Projects.tsx
+│   │   ├── Posts.tsx
+│   │   └── Contact.tsx
+│   ├── ThemeProvider.tsx
+│   ├── Navbar.tsx
+│   ├── Footer.tsx
+│   └── ChatWidget.tsx
+├── data/
+│   └── portfolio.ts
+├── hooks/
+│   ├── useGitHub.ts
+│   └── useDevTo.ts
+├── lib/
+│   ├── github.ts
+│   ├── devto.ts
+│   └── motion.ts
+└── types/
+    └── index.ts
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🔑 Onde gerar cada chave
 
-## Learn More
+| Variável | Link |
+|---|---|
+| `GITHUB_TOKEN` | github.com/settings/tokens → New token → scope: `public_repo` |
+| `EMAILJS_*` | emailjs.com → Email Services + Templates + Account |
+| `GEMINI_KEY` | aistudio.google.com → Get API Key (gratuito) |
 
-To learn more about Next.js, take a look at the following resources:
+## 🎨 Personalizar
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Edite **`src/data/portfolio.ts`** — é o único arquivo com seus dados pessoais.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🚀 Deploy Vercel
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. vercel.com → New Project → importar do GitHub
+2. Em Environment Variables → adicione todas as vars do `.env.local`
+3. Deploy — redeploy automático a cada push no `main`
