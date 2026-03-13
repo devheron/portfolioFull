@@ -10,6 +10,7 @@ src/
 │   └── api/
 │       ├── github/route.ts
 │       └── contact/route.ts
+│       └── devto/route.ts
 ├── components/
 │   ├── sections/
 │   │   ├── Hero.tsx
