@@ -45,7 +45,7 @@ export interface Skill {
   name: string;
   icon: string;
   level: 1 | 2 | 3; // 1=learning, 2=comfortable, 3=confident
-  category: "frontend" | "backend" | "tools" | "learning";
+  category: "frontend" | "backend" | "tools" | "learning" | "languages" | "analisedados" | "mobile" | "automacao" | "embedded";
 }
 
 export interface Project {

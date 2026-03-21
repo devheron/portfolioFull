@@ -21,17 +21,17 @@ export const STATIC_RESPONSES: StaticResponse[] = [
   {
     keywords: ["disponível", "available", "disponible", "trabalhar", "work", "trabajar", "hire", "contratar", "oportunidade", "opportunity", "oportunidad"],
     answer: {
-      pt: "Sim, estou **disponível**! Estou aberto a **estágios**, **freelas** e **colaborações** em projetos de frontend ou full stack. Pode me contatar pelo email ou LinkedIn.",
-      en: "Yes, I'm **available**! I'm open to **internships**, **freelance** and **collaborations** on frontend or full stack projects. Feel free to reach out via email or LinkedIn.",
-      es: "¡Sí, estoy **disponible**! Estoy abierto a **pasantías**, **freelance** y **colaboraciones** en proyectos de frontend o full stack. Puedes contactarme por email o LinkedIn.",
+      pt: "Sim, estou **disponível**! Estou aberto a **oportunidades**, **freelas** e **colaborações** em projetos de frontend ou full stack. Pode me contatar pelo email ou LinkedIn.",
+      en: "Yes, I'm **available**! I'm open to **opportunities**, **freelance** and **collaborations** on frontend or full stack projects. Feel free to reach out via email or LinkedIn.",
+      es: "¡Sí, estoy **disponible**! Estoy abierto a **oportunidad**, **freelance** y **colaboraciones** en proyectos de frontend o full stack. Puedes contactarme por email o LinkedIn.",
     },
   },
   {
     keywords: ["projeto", "projects", "proyecto", "portfólio", "portfolio", "construiu", "built", "construyó"],
     answer: {
-      pt: "Meus projetos principais:\n\n**Portfolio Pessoal** — este site! Next.js + Tailwind + GitHub API + DEV.to API\n\n**Task Manager App** — gerenciador de tarefas com JavaScript puro e drag & drop\n\n**Weather Dashboard** — dashboard meteorológico com React e OpenWeather API\n\nTodos estão no meu GitHub!",
-      en: "My main projects:\n\n**Personal Portfolio** — this site! Next.js + Tailwind + GitHub API + DEV.to API\n\n**Task Manager App** — task manager with vanilla JavaScript and drag & drop\n\n**Weather Dashboard** — weather dashboard with React and OpenWeather API\n\nAll of them are on my GitHub!",
-      es: "Mis proyectos principales:\n\n**Portfolio Personal** — ¡este sitio! Next.js + Tailwind + GitHub API + DEV.to API\n\n**Task Manager App** — gestor de tareas con JavaScript puro y drag & drop\n\n**Weather Dashboard** — dashboard meteorológico con React y OpenWeather API\n\n¡Todos están en mi GitHub!",
+      pt: "Meus projetos principais:\n\n**Portfolio Pessoal** — este site! Next.js + Tailwind + GitHub API + DEV.to API\n\n**Nutri Track App** — Projeto de acompanhamento nutricional com JavaScript puro, CSS Grid e LocalStorage para salvar refeições e metas diárias.\n\n**Weather Dashboard** — dashboard meteorológico com React e Open-Meteo API\n\nTodos estão no meu GitHub!",
+      en: "My main projects:\n\n**Personal Portfolio** — this site! Next.js + Tailwind + GitHub API + DEV.to API\n\n**Nutri Track App** — Nutrition tracking project using plain JavaScript, CSS Grid, and LocalStorage to save meals and daily goals.\n\n**Weather Dashboard** — weather dashboard with React and Open-Meteo API\n\nAll of them are on my GitHub!",
+      es: "Mis proyectos principales:\n\n**Portfolio Personal** — ¡este sitio! Next.js + Tailwind + GitHub API + DEV.to API\n\n**Nutri Track App** — Proyecto de seguimiento nutricional con JavaScript puro, CSS Grid y LocalStorage para guardar comidas y objetivos diarios.\n\n**Weather Dashboard** — dashboard meteorológico con React y Open-Meteo API\n\n¡Todos están en mi GitHub!",
     },
   },
   {

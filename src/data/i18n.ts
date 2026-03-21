@@ -27,9 +27,9 @@ export const translations = {
       es: "DESARROLLADOR FULLSTACK EN FORMACIÓN",
     },
     description: {
-      pt: "Atualmente aprendendo na prática, construindo projetos com React, Next.js e TypeScript. Aberto a estágios, freelas e colaborações.",
-      en: "Currently learning by doing, building projects with React, Next.js and TypeScript. Open to internships, freelance and collaborations.",
-      es: "Actualmente aprendiendo en la práctica, construyendo proyectos con React, Next.js y TypeScript. Abierto a pasantías, freelance y colaboraciones.",
+      pt: "Atualmente aprendendo na prática, construindo projetos com React, Next.js e TypeScript. Aberto a Oportunidades, freelas e colaborações.",
+      en: "Currently learning by doing, building projects with React, Next.js and TypeScript. Open to Opportunities, freelance and collaborations.",
+      es: "Actualmente aprendiendo en la práctica, construyendo proyectos con React, Next.js y TypeScript. Abierto a Oportunidad, freelance y colaboraciones.",
     },
     cta:        { pt: "ver projetos →", en: "view projects →", es: "ver proyectos →" },
     scrollHint: { pt: "SCROLL",         en: "SCROLL",          es: "SCROLL"          },
@@ -65,7 +65,7 @@ export const translations = {
     },
     facts: {
       status:  { pt: "Estudante de Dev",  en: "Dev Student",     es: "Estudiante Dev"   },
-      looking: { pt: "Estágio & Freelas", en: "Internship & Freelance", es: "Pasantía & Freelance" },
+      looking: { pt: "Oportunidades & Freelas", en: "Opportunities & Freelance", es: "Oportunidad & Freelance" },
       focus:   { pt: "Frontend & Full Stack", en: "Frontend & Full Stack", es: "Frontend & Full Stack" },
     },
     factLabels: {
@@ -86,6 +86,11 @@ export const translations = {
       all:      { pt: "Todos",       en: "All",      es: "Todos"      },
       frontend: { pt: "Frontend",    en: "Frontend", es: "Frontend"   },
       backend:  { pt: "Backend",     en: "Backend",  es: "Backend"    },
+      linguagens: { pt: "Linguagens",  en: "Languages", es: "Lenguajes"  },
+      analisedados: { pt: "Análise de Dados",  en: "Data Analysis", es: "Análisis de Datos" },
+      mobile: { pt: "Mobile", en: "Mobile", es: "Mobile"},
+      embedded: {pt: "Embedded Integrado", en: "Embedded", es: "Embedded"},
+      automacao: {pt: "Automação", en: "Automatization", es: "Automatización"},
       tools:    { pt: "Ferramentas", en: "Tools",    es: "Herramientas"},
       learning: { pt: "Aprendendo",  en: "Learning", es: "Aprendiendo"},
     },

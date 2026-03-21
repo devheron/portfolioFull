@@ -39,6 +39,10 @@ export default function Skills() {
     { id:"frontend", label: s.filters.frontend[lang] },
     { id:"backend",  label: s.filters.backend[lang]  },
     { id:"tools",    label: s.filters.tools[lang]    },
+    { id:"analisedados", label: s.filters.analisedados[lang] },
+    { id:"mobile", label: s.filters.mobile[lang] },
+    { id:"automacao", label: s.filters.automacao[lang] },
+    { id:"embedded", label: s.filters.embedded[lang] },
     { id:"learning", label: s.filters.learning[lang] },
   ];
   const filtered = active === "all" ? SKILLS : SKILLS.filter((x) => x.category === active);
