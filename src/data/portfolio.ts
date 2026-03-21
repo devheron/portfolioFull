@@ -59,7 +59,7 @@ export const SKILLS: Skill[] = [
   { name: "Python", icon: "🐍", level: 2, category: "analisedados"},
   { name: "ETL", icon: "🔄", level: 1, category: "analisedados" },
   {name: "Google Colab", icon: "☁️", level: 1, category: "analisedados" },
-,
+
   // Tools / FrameWorks
   {name: "GitHub Copilot", icon: "🤖", level: 1, category: "tools" },
   { name: "Git & GitHub", icon: "🐙", level: 2, category: "tools" },
@@ -80,7 +80,7 @@ export const SKILLS: Skill[] = [
   {name: "Eclipse", icon: "🌘", level: 1, category: "tools" },
   {name: "Apache NetBeans", icon: "🌗", level: 1, category: "tools" },
   {name: "Trello", icon: "📋", level: 1, category: "tools" },
-  ,
+
   // Aprendendo
   { name: "PostgreSQL", icon: "🐘", level: 1, category: "learning" },
   { name: "AWS",        icon: "☁️", level: 1, category: "learning" },
@@ -89,7 +89,7 @@ export const SKILLS: Skill[] = [
   { name: "GraphQL", icon: "🔮", level: 1, category: "learning" },
   { name: "C#", icon: "🎮", level: 1, category: "learning" },
   {name: "Linguagem Lua", icon: "🌙", level: 1, category: "learning" },
-  ,
+  
   // Linguagens
   { name: "Português", icon: "🇧🇷", level: 3, category: "languages" },
   { name: "Inglês",    icon: "🇺🇸", level: 2, category: "languages" },
